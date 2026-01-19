@@ -13,19 +13,29 @@ body {
 .hero {
     background: #111;
     color: white;
-    padding: 120px 20px;
+    padding: 140px 20px;
     text-align: center;
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
+
 .hero h1 {
+    font-size: 3rem;
     margin-bottom: 20px;
+    line-height: 1.2;
 }
 
 .hero p {
-    margin-bottom: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    max-width: 600px;
+}
+
+.hero .btn {
+    position: static; /* IMPORTANT */
 }
 
 .btn {
@@ -48,7 +58,7 @@ section {
     border-radius: 5px;
 }
 .project img {
-    width: 100%;
+    width: 75%;
     max-width: 200px;
     display: block;
     margin-bottom: 15px;
