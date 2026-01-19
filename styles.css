@@ -58,7 +58,7 @@ section {
     border-radius: 5px;
 }
 .project img {
-    width: 75%;
+    width: 100%;
     max-width: 200px;
     display: block;
     margin-bottom: 15px;
