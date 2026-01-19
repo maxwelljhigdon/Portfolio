@@ -36,3 +36,10 @@ section {
     padding: 20px;
     border-radius: 5px;
 }
+.project img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
