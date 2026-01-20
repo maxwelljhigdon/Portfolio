@@ -7,8 +7,8 @@
 
 /* ===== COLOR VARIABLES ===== */
 :root {
-    --forest-green: #1f6f54;
-    --forest-green-dark: #15543f;
+  --slate-blue: #556fb5;      /* main color */
+--slate-blue-dark: #3e5390; /* darker variant for hover/borders */
     --background-light: #f4f7f6;
     --card-bg: #ffffff;
     --text-dark: #1e1e1e;
