@@ -195,4 +195,8 @@ footer {
     align-items: center;
     text-align: center;
 }
+.linkedin-icon-link {
+    font-size: 1.6rem;
+    color: inherit;
+}
 
