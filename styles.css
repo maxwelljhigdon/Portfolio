@@ -51,15 +51,19 @@ a:hover {
 /* ===== HERO HEADER ===== */
 .hero {
   position: relative;
+  isolation: isolate;
   height: 80vh;
   min-height: 520px;
-  background: url("images/background.png") center / cover no-repeat;
+  background:
+    url("images/header-bg.png") center / cover no-repeat;
+  background-color: var(--slate-blue-dark);
 
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
+
 
 .hero-overlay {
   position: absolute;
