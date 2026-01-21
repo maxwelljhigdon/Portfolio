@@ -290,7 +290,7 @@ section {
 }
 
 .project img {
-  width: 100%;
+  width: auto;
   max-width: 350px;
   height: auto;
   border-radius: 8px;
