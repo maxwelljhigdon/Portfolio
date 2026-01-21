@@ -589,13 +589,12 @@ footer {
 
 /* Mini headings & paragraphs */
 .case-study.mini h3 {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-  color: var(--slate-blue-dark);
+   font-size: 1.6rem;
+  margin-bottom: 0.8rem;
 }
 
 .case-study.mini p {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color: var(--text-muted);
 }
 
