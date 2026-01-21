@@ -303,14 +303,17 @@ section {
 
 .project-img-small {
   max-width: 280px;
+  width: auto;
 }
 
 .project-img-medium {
   max-width: 350px;
+  width: auto;
 }
 
 .project-img-wide {
   max-width: 520px;
+  width: auto;
 }
 
 .project:hover img {
