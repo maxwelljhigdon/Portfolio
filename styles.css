@@ -497,3 +497,6 @@ footer {
   background: #e6ecff;
   transform: translateY(-2px);
 }
+.project-img-wide {
+  max-width: 500px;
+}
