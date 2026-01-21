@@ -512,3 +512,123 @@ footer {
   background: #e6ecff;
   transform: translateY(-2px);
 }
+
+/* ===== CASE STUDIES SECTION ===== */
+#case-studies {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* Section heading */
+#case-studies h2 {
+  font-size: 2rem;
+  color: var(--slate-blue);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* ===== FLAGSHIP CASE STUDY ===== */
+.case-study.flagship {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 50px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.case-study.flagship:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+}
+
+/* Flagship headings */
+.case-study.flagship h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.case-study.flagship h4 {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--slate-blue-dark);
+}
+
+/* Flagship paragraphs & lists */
+.case-study.flagship p,
+.case-study.flagship ul {
+  font-size: 0.95rem;
+  color: var(--text-dark);
+  margin-bottom: 0.8rem;
+}
+
+.case-study.flagship ul {
+  padding-left: 1.2rem;
+}
+
+.case-study.flagship li {
+  margin-bottom: 0.4rem;
+}
+
+/* ===== MINI CASE STUDIES ===== */
+.case-study.mini {
+  background: var(--card-bg);
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.case-study.mini:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+/* Mini headings & paragraphs */
+.case-study.mini h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--slate-blue-dark);
+}
+
+.case-study.mini p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* ===== MINI CASE STUDIES GRID ===== */
+.mini-case-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.8rem;
+}
+
+/* ===== IMAGE STYLING ===== */
+.case-study img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.case-study img:hover {
+  transform: scale(1.03);
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .mini-case-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .case-study.flagship {
+    padding: 1.5rem;
+  }
+}
+
